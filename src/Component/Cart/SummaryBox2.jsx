@@ -458,10 +458,7 @@ export default function SummaryBox2() {
 
                 <ModalFooter style={{ marginTop: "10px" }}>
                   {console.log(len)}
-                  <span>
-                    {" "}
-                    <span>₹</span>prc{" "}
-                  </span>
+
                   {len > 12 ? (
                     <Button
                       id={ps.paymentButton}
